@@ -33,7 +33,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeSystem.cmake"
-  "E:/makecheck/ch3.array/CMakeLists.txt"
+  "E:/makecheck/ch03.array/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,11 +45,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "ch3.array/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ch03.array/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/DS.dir/DependInfo.cmake"
-  "ch3.array/CMakeFiles/array.dir/DependInfo.cmake"
+  "ch03.array/CMakeFiles/array.dir/DependInfo.cmake"
   )

@@ -1,0 +1,2 @@
+D:/MinGW/bin/ar.exe qc libarray.a CMakeFiles/array.dir/array.c.obj
+D:/MinGW/bin/ranlib.exe libarray.a
