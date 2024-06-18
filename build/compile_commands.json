@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/makecheck/build",
+  "command": "D:/MinGW/bin/gcc.exe   -g -o CMakeFiles/DS.dir/main.c.obj -c E:/makecheck/main.c",
+  "file": "E:/makecheck/main.c",
+  "output": "CMakeFiles/DS.dir/main.c.obj"
+},
+{
+  "directory": "E:/makecheck/build/3.array",
+  "command": "D:/MinGW/bin/gcc.exe   -g -o CMakeFiles/array.dir/array.c.obj -c E:/makecheck/3.array/array.c",
+  "file": "E:/makecheck/3.array/array.c",
+  "output": "3.array/CMakeFiles/array.dir/array.c.obj"
+}
+]
