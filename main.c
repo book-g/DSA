@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "3.array/array.c"
+#include "ch3.array/array.c"
 
 
 int main(){

@@ -92,7 +92,7 @@ DS_EXTERNAL_OBJECTS =
 
 DS.exe: CMakeFiles/DS.dir/main.c.obj
 DS.exe: CMakeFiles/DS.dir/build.make
-DS.exe: 3.array/libarray.a
+DS.exe: ch3.array/libarray.a
 DS.exe: CMakeFiles/DS.dir/linkLibs.rsp
 DS.exe: CMakeFiles/DS.dir/objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:/makecheck/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable DS.exe"

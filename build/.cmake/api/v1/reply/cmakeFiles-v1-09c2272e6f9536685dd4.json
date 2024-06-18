@@ -146,7 +146,7 @@
 			"path" : "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"path" : "3.array/CMakeLists.txt"
+			"path" : "ch3.array/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

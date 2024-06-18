@@ -28,12 +28,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake"
-  "E:/makecheck/3.array/CMakeLists.txt"
   "E:/makecheck/CMakeLists.txt"
   "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeSystem.cmake"
+  "E:/makecheck/ch3.array/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,11 +45,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "3.array/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ch3.array/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/DS.dir/DependInfo.cmake"
-  "3.array/CMakeFiles/array.dir/DependInfo.cmake"
+  "ch3.array/CMakeFiles/array.dir/DependInfo.cmake"
   )

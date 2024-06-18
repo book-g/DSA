@@ -23,15 +23,15 @@
 					]
 				},
 				{
-					"build" : "3.array",
-					"jsonFile" : "directory-3.array-Debug-f6160dbf83e9a4fdf8f7.json",
+					"build" : "ch3.array",
+					"jsonFile" : "directory-ch3.array-Debug-119dbd8277f4a56049ca.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.11"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "3.array",
+					"source" : "ch3.array",
 					"targetIndexes" : 
 					[
 						1
@@ -60,14 +60,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "DS::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DS-Debug-7df9c1a3ae97284d42ef.json",
+					"jsonFile" : "target-DS-Debug-08ee0ccf6d6da2272120.json",
 					"name" : "DS",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
-					"id" : "array::@dca480f3793b6d02e130",
-					"jsonFile" : "target-array-Debug-1325f1e0abdf10ef98ce.json",
+					"id" : "array::@9d90f198032ed57ee68f",
+					"jsonFile" : "target-array-Debug-038020b8933e5c54d9d3.json",
 					"name" : "array",
 					"projectIndex" : 0
 				}

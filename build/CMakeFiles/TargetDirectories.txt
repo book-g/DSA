@@ -1,6 +1,6 @@
 E:/makecheck/build/CMakeFiles/DS.dir
 E:/makecheck/build/CMakeFiles/edit_cache.dir
 E:/makecheck/build/CMakeFiles/rebuild_cache.dir
-E:/makecheck/build/3.array/CMakeFiles/array.dir
-E:/makecheck/build/3.array/CMakeFiles/edit_cache.dir
-E:/makecheck/build/3.array/CMakeFiles/rebuild_cache.dir
+E:/makecheck/build/ch3.array/CMakeFiles/array.dir
+E:/makecheck/build/ch3.array/CMakeFiles/edit_cache.dir
+E:/makecheck/build/ch3.array/CMakeFiles/rebuild_cache.dir

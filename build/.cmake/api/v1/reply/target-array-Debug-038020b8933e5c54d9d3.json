@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "3.array/libarray.a"
+			"path" : "ch3.array/libarray.a"
 		}
 	],
 	"backtrace" : 1,
@@ -15,7 +15,7 @@
 		],
 		"files" : 
 		[
-			"3.array/CMakeLists.txt"
+			"ch3.array/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -46,13 +46,13 @@
 			]
 		}
 	],
-	"id" : "array::@dca480f3793b6d02e130",
+	"id" : "array::@9d90f198032ed57ee68f",
 	"name" : "array",
 	"nameOnDisk" : "libarray.a",
 	"paths" : 
 	{
-		"build" : "3.array",
-		"source" : "3.array"
+		"build" : "ch3.array",
+		"source" : "ch3.array"
 	},
 	"sourceGroups" : 
 	[
@@ -102,142 +102,142 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "3.array/array.c",
+			"path" : "ch3.array/array.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e1.h",
+			"path" : "ch3.array/ch3_e1.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e2.h",
+			"path" : "ch3.array/ch3_e2.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e3.h",
+			"path" : "ch3.array/ch3_e3.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e4.h",
+			"path" : "ch3.array/ch3_e4.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e5.h",
+			"path" : "ch3.array/ch3_e5.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e6.h",
+			"path" : "ch3.array/ch3_e6.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e7.h",
+			"path" : "ch3.array/ch3_e7.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e8.h",
+			"path" : "ch3.array/ch3_e8.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e9.h",
+			"path" : "ch3.array/ch3_e9.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e10.h",
+			"path" : "ch3.array/ch3_e10.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e11.h",
+			"path" : "ch3.array/ch3_e11.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e12.h",
+			"path" : "ch3.array/ch3_e12.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e13.h",
+			"path" : "ch3.array/ch3_e13.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e14.h",
+			"path" : "ch3.array/ch3_e14.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e15.h",
+			"path" : "ch3.array/ch3_e15.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e16.h",
+			"path" : "ch3.array/ch3_e16.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e17.h",
+			"path" : "ch3.array/ch3_e17.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e18.h",
+			"path" : "ch3.array/ch3_e18.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e19.h",
+			"path" : "ch3.array/ch3_e19.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e20.h",
+			"path" : "ch3.array/ch3_e20.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e21.h",
+			"path" : "ch3.array/ch3_e21.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e22.h",
+			"path" : "ch3.array/ch3_e22.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e23.h",
+			"path" : "ch3.array/ch3_e23.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e24.h",
+			"path" : "ch3.array/ch3_e24.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e25.h",
+			"path" : "ch3.array/ch3_e25.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e26.h",
+			"path" : "ch3.array/ch3_e26.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "3.array/ch3_e27.h",
+			"path" : "ch3.array/ch3_e27.h",
 			"sourceGroupIndex" : 1
 		}
 	],

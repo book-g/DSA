@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:/makecheck/build/CMakeFiles E:/makecheck/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd E:/makecheck/build && $(CMAKE_COMMAND) -E cmake_progress_start E:/makecheck/build/CMakeFiles E:/makecheck/build/ch3.array//CMakeFiles/progress.marks
+	cd E:/makecheck/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch3.array/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:/makecheck/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd E:/makecheck/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch3.array/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,68 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd E:/makecheck/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch3.array/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd E:/makecheck/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch3.array/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd E:/makecheck/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named DS
+# Convenience name for target.
+ch3.array/CMakeFiles/array.dir/rule:
+	cd E:/makecheck/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch3.array/CMakeFiles/array.dir/rule
+.PHONY : ch3.array/CMakeFiles/array.dir/rule
 
-# Build rule for target.
-DS: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DS
-.PHONY : DS
-
-# fast build rule for target.
-DS/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/build
-.PHONY : DS/fast
-
-#=============================================================================
-# Target rules for targets named array
-
-# Build rule for target.
-array: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array
+# Convenience name for target.
+array: ch3.array/CMakeFiles/array.dir/rule
 .PHONY : array
 
 # fast build rule for target.
 array/fast:
-	$(MAKE) $(MAKESILENT) -f ch3.array/CMakeFiles/array.dir/build.make ch3.array/CMakeFiles/array.dir/build
+	cd E:/makecheck/build && $(MAKE) $(MAKESILENT) -f ch3.array/CMakeFiles/array.dir/build.make ch3.array/CMakeFiles/array.dir/build
 .PHONY : array/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+array.obj: array.c.obj
+.PHONY : array.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/main.c.obj
-.PHONY : main.c.obj
+array.c.obj:
+	cd E:/makecheck/build && $(MAKE) $(MAKESILENT) -f ch3.array/CMakeFiles/array.dir/build.make ch3.array/CMakeFiles/array.dir/array.c.obj
+.PHONY : array.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+array.i: array.c.i
+.PHONY : array.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/main.c.i
-.PHONY : main.c.i
+array.c.i:
+	cd E:/makecheck/build && $(MAKE) $(MAKESILENT) -f ch3.array/CMakeFiles/array.dir/build.make ch3.array/CMakeFiles/array.dir/array.c.i
+.PHONY : array.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+array.s: array.c.s
+.PHONY : array.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/main.c.s
-.PHONY : main.c.s
+array.c.s:
+	cd E:/makecheck/build && $(MAKE) $(MAKESILENT) -f ch3.array/CMakeFiles/array.dir/build.make ch3.array/CMakeFiles/array.dir/array.c.s
+.PHONY : array.c.s
 
 # Help Target
 help:
@@ -174,11 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... DS"
 	@echo "... array"
-	@echo "... main.obj"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... array.obj"
+	@echo "... array.i"
+	@echo "... array.s"
 .PHONY : help
 
 
@@ -190,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd E:/makecheck/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -64,38 +64,38 @@ CMAKE_BINARY_DIR = E:/makecheck/build
 
 # The main recursive "all" target.
 all: CMakeFiles/DS.dir/all
-all: 3.array/all
+all: ch3.array/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: 3.array/preinstall
+preinstall: ch3.array/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/DS.dir/clean
-clean: 3.array/clean
+clean: ch3.array/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory 3.array
+# Directory level rules for directory ch3.array
 
 # Recursive "all" directory target.
-3.array/all: 3.array/CMakeFiles/array.dir/all
-.PHONY : 3.array/all
+ch3.array/all: ch3.array/CMakeFiles/array.dir/all
+.PHONY : ch3.array/all
 
 # Recursive "preinstall" directory target.
-3.array/preinstall:
-.PHONY : 3.array/preinstall
+ch3.array/preinstall:
+.PHONY : ch3.array/preinstall
 
 # Recursive "clean" directory target.
-3.array/clean: 3.array/CMakeFiles/array.dir/clean
-.PHONY : 3.array/clean
+ch3.array/clean: ch3.array/CMakeFiles/array.dir/clean
+.PHONY : ch3.array/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/DS.dir
 
 # All Build rule for target.
-CMakeFiles/DS.dir/all: 3.array/CMakeFiles/array.dir/all
+CMakeFiles/DS.dir/all: ch3.array/CMakeFiles/array.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:/makecheck/build/CMakeFiles --progress-num=1,2 "Built target DS"
@@ -118,30 +118,30 @@ CMakeFiles/DS.dir/clean:
 .PHONY : CMakeFiles/DS.dir/clean
 
 #=============================================================================
-# Target rules for target 3.array/CMakeFiles/array.dir
+# Target rules for target ch3.array/CMakeFiles/array.dir
 
 # All Build rule for target.
-3.array/CMakeFiles/array.dir/all:
-	$(MAKE) $(MAKESILENT) -f 3.array/CMakeFiles/array.dir/build.make 3.array/CMakeFiles/array.dir/depend
-	$(MAKE) $(MAKESILENT) -f 3.array/CMakeFiles/array.dir/build.make 3.array/CMakeFiles/array.dir/build
+ch3.array/CMakeFiles/array.dir/all:
+	$(MAKE) $(MAKESILENT) -f ch3.array/CMakeFiles/array.dir/build.make ch3.array/CMakeFiles/array.dir/depend
+	$(MAKE) $(MAKESILENT) -f ch3.array/CMakeFiles/array.dir/build.make ch3.array/CMakeFiles/array.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:/makecheck/build/CMakeFiles --progress-num=3,4 "Built target array"
-.PHONY : 3.array/CMakeFiles/array.dir/all
+.PHONY : ch3.array/CMakeFiles/array.dir/all
 
 # Build rule for subdir invocation for target.
-3.array/CMakeFiles/array.dir/rule: cmake_check_build_system
+ch3.array/CMakeFiles/array.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:/makecheck/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3.array/CMakeFiles/array.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch3.array/CMakeFiles/array.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:/makecheck/build/CMakeFiles 0
-.PHONY : 3.array/CMakeFiles/array.dir/rule
+.PHONY : ch3.array/CMakeFiles/array.dir/rule
 
 # Convenience name for target.
-array: 3.array/CMakeFiles/array.dir/rule
+array: ch3.array/CMakeFiles/array.dir/rule
 .PHONY : array
 
 # clean rule for target.
-3.array/CMakeFiles/array.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 3.array/CMakeFiles/array.dir/build.make 3.array/CMakeFiles/array.dir/clean
-.PHONY : 3.array/CMakeFiles/array.dir/clean
+ch3.array/CMakeFiles/array.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ch3.array/CMakeFiles/array.dir/build.make ch3.array/CMakeFiles/array.dir/clean
+.PHONY : ch3.array/CMakeFiles/array.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
